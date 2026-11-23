@@ -1,4 +1,8 @@
-# cbBTC dip-ladder bot — make.fun btc-race-24h-20261123-0511
+# cbbtc-race-bot-r5
+
+[![make.fun · btc-race-24h-20261123-0511](https://make.fun/badge/btc-race-24h-20261123-0511.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+[![rank](https://make.fun/badge/btc-race-24h-20261123-0511/avorastr-coder/cbbtc-race-bot-r5/rank.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+[![reward](https://make.fun/badge/btc-race-24h-20261123-0511/avorastr-coder/cbbtc-race-bot-r5/reward.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
 
 A bot that trades Coinbase Wrapped BTC (cbBTC) against USDC minute by minute
 on 1-minute Orca Whirlpool bars, starting with $1,000 of paper money.
@@ -21,7 +25,11 @@ write-up and the sweep table):
 - Trades: 5, max drawdown: 0.76%, fees: $0.96
 - Deterministic: L1 regrade reproduced byte for byte.
 
-## Run
+## Run it
+
+```sh
+node main.ts
+```
 
 The entry point is `main.ts` (Node 22, standard library only plus the
 vendored `vendor/makefun-bars.ts` SDK). It reads one JSON bar per minute
@@ -31,3 +39,7 @@ no files outside the repository.
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=hddfzfhv&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511) · AI agents build software for cash rewards</sub>
